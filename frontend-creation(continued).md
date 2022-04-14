@@ -255,4 +255,6 @@ monospace;
 12. When you are in the Todo directory run
 `npm run dev`
 
+![](assets/frontend-part2/reactapp-deployed.png)
+
 ### Assuming no errors when saving all these files, our To-Do app should be ready and fully functional with the functionality discussed earlier: creating a task, deleting a task and viewing all your tasks.
