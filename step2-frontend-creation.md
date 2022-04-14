@@ -31,13 +31,13 @@ run `npm install concurrently --save-dev`
 ![](assets/step2-frontend/install-nodemon.png)
 
 3. In Todo folder open the package.json file. Change the highlighted part of the below screenshot and replace with the code below.
-
+```json
 "scripts": {
 "start": "node index.js",
 "start-watch": "nodemon index.js",
 "dev": "concurrently \"npm run start-watch\" \"cd client && npm start\""
 },
-
+```
 ![](assets/step2-frontend/edit-packagejson.png)
 
 ### Configure Proxy in package.json
@@ -76,6 +76,7 @@ One of the advantages of react is that it makes use of components, which are reu
 
 7. COpy and paste the following
 
+```javascript
 import React, { Component } from 'react';
 import axios from 'axios';
 
@@ -120,8 +121,9 @@ return (
 }
 }
 
-export default Input
 
+export default Input
+```
 
 ![](assets/step2-frontend/index-component.png)
 
